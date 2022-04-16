@@ -140,14 +140,172 @@
       <div class="row row-content">
         <div class="col-12">
           <h2>Corporate Leadership</h2>
-          <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-          <p class="d-none d-sm-block">Our CEO, Peter,</p>
-          <h3>Dhanasekaran Witherspoon <small>Chief Food</small></h3>
-          <p class="d-none d-sm-block">Our CFO, Danny,</p>
-          <h3>Agume Tang <small>Chief Taste Officer</small></h3>
-          <p class="d-none d-sm-block">Blessed with the</p>
-          <h3>Alberto Somayya <small>Executive Chef</small></h3>
-          <p class="d-none d-sm-block">Award winning the</p>
+          <!-- <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#peter"
+                role="tab"
+                data-toggle="tab"
+              >
+                Peter Pan, CEO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#danny" role="tab" data-toggle="tab">
+                Danny Witherspoon, CFO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#agume" role="tab" data-toggle="tab">
+                Agume Tang, CTO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#alberto" role="tab" data-toggle="tab">
+                Alberto Somayya, Exe. Chef
+              </a>
+            </li>
+          </ul> -->
+
+          <!-- <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="peter">
+              <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+              <p class="d-none d-sm-block">
+                Our CEO, Peter, jQuery is a lightweight, "write less, do more",
+                JavaScript library.The purpose of jQuery is to make it much
+                easier to use JavaScript on your website. jQuery takes a lot of
+                common tasks that require many lines of JavaScript code to
+                accomplish, and wraps them into methods that you can call with a
+                single line of code. jQuery also simplifies a lot of the
+                complicated things from JavaScript, like AJAX calls and DOM
+                manipulation. The jQuery library contains the following
+                features:
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="danny">
+              <h3>
+                Dhanasekaran Witherspoon
+                <small>Chief Food Officer</small>
+              </h3>
+              <p class="d-none d-sm-block">
+                Our CFO, Danny,jQuery is a fast, small, and feature-rich
+                JavaScript library. It makes things like HTML document traversal
+                and manipulation, event handling, animation, and Ajax much
+                simpler with an easy-to-use API that works across a multitude of
+                browsers. With a combination of versatility and extensibility,
+                jQuery has changed the way that millions of people write
+                JavaScript.
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="agume">
+              <h3>Agume Tang <small>Chief Taste Officer</small></h3>
+              <p class="d-none d-sm-block">
+                Blessed with the, AJAX allows web pages to be updated
+                asynchronously by exchanging data with a web server behind the
+                scenes. This means that it is possible to update parts of a web
+                page, without reloading the whole page.
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="alberto">
+              <h3>Alberto Somayya <small>Executive Chef</small></h3>
+              <p class="d-none d-sm-block">
+                Award winning the Modern Browsers can use Fetch API instead of
+                the XMLHttpRequest Object.The Fetch API interface allows web
+                browser to make HTTP requests to web servers. If you use the
+                XMLHttpRequest Object, Fetch can do the same in a simpler way.
+              </p>
+            </div>
+          </div> -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" role="tab" id="peterhead">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#peter">
+
+                    Peter Pan
+                    <small>Chief Epicurious Officer</small
+                    >
+                </h3>
+              </div>
+              <div role="tabpanel" class="collapse show" id="peter" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">
+                    Our CEO, Peter, jQuery is a lightweight, "write less, do
+                    more", JavaScript library.The purpose of jQuery is to make it
+                    much easier to use JavaScript on your website. jQuery takes a
+                    lot of common tasks that require many lines of JavaScript code
+                    to accomplish, and wraps them into methods that you can call
+                    with a single line of code. jQuery also simplifies a lot of
+                    the complicated things from JavaScript, like AJAX calls and
+                    DOM manipulation. The jQuery library contains the following
+                    features:
+                  </p>
+                </div>
+              </div>
+              <div class="card-header" role="tab" id="dannyhead">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#danny">
+
+                    Dhanasekaran Witherspoon
+                    <small>Chief Food Officer</small
+                    >
+                </h3>
+              </div>
+              <div role="tabpanel" class="collapse show" id="danny" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">
+                    Our CFO, Danny,jQuery is a fast, small, and feature-rich
+                JavaScript library. It makes things like HTML document traversal
+                and manipulation, event handling, animation, and Ajax much
+                simpler with an easy-to-use API that works across a multitude of
+                browsers. With a combination of versatility and extensibility,
+                jQuery has changed the way that millions of people write
+                JavaScript.
+                  </p>
+                </div>
+              </div>
+              <div class="card-header" role="tab" id="agumehead">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#agume">
+
+                    Agume Tang
+                    <small>Chief Taste Officer</small
+                    >
+                </h3>
+              </div>
+              <div role="tabpanel" class="collapse show" id="agume" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">
+                    Blessed with the, AJAX allows web pages to be updated
+                asynchronously by exchanging data with a web server behind the
+                scenes. This means that it is possible to update parts of a web
+                page, without reloading the whole page.
+                  </p>
+                </div>
+              </div>
+              <div class="card-header" role="tab" id="albertohead">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#alberto">
+
+                    Alberto Somayya 
+                    <small>Executive Chef</small
+                    >
+                </h3>
+              </div>
+              <div role="tabpanel" class="collapse show" id="alberto" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">
+                    Award winning the Modern Browsers can use Fetch API instead of
+                    the XMLHttpRequest Object.The Fetch API interface allows web
+                    browser to make HTTP requests to web servers. If you use the
+                    XMLHttpRequest Object, Fetch can do the same in a simpler way.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
         <div class="col-12 col-sm-3"></div>
       </div>
